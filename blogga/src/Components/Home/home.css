@@ -1,0 +1,172 @@
+.home{
+    background: #232e52;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 4rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.logo{
+    color: #fff;
+}
+.introduction{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.introduction h2{
+    color: #FFF;
+    font-family: Graphik;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -1.56px;
+    padding-bottom: 2rem;
+}
+.introduction p{
+    color: #aaaaaa;
+    font-family: Graphik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+.introduction .products{
+    text-transform: lowercase;
+    color: #aaaaaa;
+}
+.btn{
+    background: rgba(255, 255, 255, 0.10);
+    border: none;
+    border-radius: 8px;
+    display: inline-flex;
+    padding: 10px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+}
+.card{
+    width: 100%;
+    margin-top: 2rem;
+}
+.card-box{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #555555;
+    background: hsl(230, 100%, 97%);
+    margin: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.24);
+}
+.card-box .image img{
+    width: 210px;
+    height: 140px;
+}
+.card-link{
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    margin-left: 10.5rem;
+    margin-bottom: 2rem
+}
+.bttn{
+    background: #EBF2FE;
+    border: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 7px;
+    padding-left: 7px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.card-link h4{
+    background: #ffffff;
+    color: #232E52;
+    
+}
+.card-note h1{
+    color: #232E52;
+    font-family: Graphik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+.card-note p{
+    color: #232E52;
+    font-family: Graphik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.image img{
+    width: 300px;
+    height: 210px;
+}
+.design{
+    text-transform: uppercase;
+    margin-top: 1rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+.design hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+@media screen and (max-width:760px){
+    
+    .home{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+    .card .card-box{
+        display: block;
+        padding: 1rem;
+        border: 2px solid #555555;
+        background: hsl(230, 100%, 97%);
+    }
+    .introduction{
+        text-align: center;
+        padding: 0;
+    }
+    .introduction h2{
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .card .card-link{
+        display: block;
+    }
+    .card .card-link{
+        margin-left: 3rem;
+        margin-right: 1rem;
+    }
+    .card .design{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .logo{
+        color: #fff;
+        font-size: 15px;
+    }
+    .btn{
+        font-size: 15px;
+    }
+    .card .card-box .image img{
+        width: 100%;
+        height: 210px;
+    }
+    .card .card-box .card-note{
+        padding-bottom: 1rem;
+    }
+}
